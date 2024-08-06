@@ -1,5 +1,5 @@
 999
-FreeCAD v0.21 33668 +26 (Git)
+FreeCAD v0.20 29410 (Git)
   0
 SECTION
   2
@@ -227,7 +227,7 @@ TABLE
   2
 LAYER
   5
-A56
+A55
 330
 0
 100
@@ -237,9 +237,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A57
-330
 A56
+330
+A55
 100
 AcDbSymbolTableRecord
 100
@@ -255,9 +255,9 @@ CONTINUOUS
   0
 LAYER
   5
-A58
+A57
 330
-A56
+A55
 100
 AcDbSymbolTableRecord
 100
@@ -273,15 +273,15 @@ CONTINUOUS
   0
 LAYER
   5
-A59
+A58
 330
-A56
+A55
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Shape2DView001
+Shape2DView024
  70
     0
  62
@@ -707,7 +707,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -735,13 +735,13 @@ AcDbSpline
  40
 0.920362
  40
-0.973323
+0.975258
  40
-0.973323
+0.975258
  40
-0.973323
+0.975258
  40
-0.973323
+0.975258
  10
 -60.7432
  20
@@ -749,25 +749,25 @@ AcDbSpline
  30
 0
  10
--58.4178
+-58.3328
  20
--274.128
+-274.491
  30
 0
  10
--56.3576
+-56.2074
  20
--284.451
+-285.206
  30
 0
  10
--54.6236
+-54.4349
  20
--295.221
+-296.403
  30
 0
   0
-SPLINE
+LINE
   5
 A09
 330
@@ -775,54 +775,20 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-2
- 72
-6
- 73
-3
- 74
-0
- 40
-0.920362
- 40
-0.920362
- 40
-0.920362
- 40
-0.930954
- 40
-0.930954
- 40
-0.930954
+AcDbLine
  10
--60.7432
+-27.4503
  20
--264.209
+-291.255
  30
 0
- 10
--60.0454
- 20
--267.185
- 30
-0
- 10
--59.3803
- 20
--270.209
- 30
+ 11
+-50.5415
+ 21
+-298.786
+ 31
 0
   0
 SPLINE
@@ -833,7 +799,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -845,31 +811,123 @@ AcDbSpline
  70
 8
  71
-1
+3
  72
-4
+17
  73
-2
+13
  74
 0
  40
-0.967503
+0
  40
-0.967503
+0
  40
-0.968211
+0
  40
-0.968211
+0
+ 40
+0.247924
+ 40
+0.247924
+ 40
+0.247924
+ 40
+0.5
+ 40
+0.5
+ 40
+0.5
+ 40
+0.752076
+ 40
+0.752076
+ 40
+0.752076
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
  10
--55.207
+-54.4349
  20
--291.686
+-296.403
  30
 0
  10
--55.1348
+-54.3706
  20
--292.115
+-296.812
+ 30
+0
+ 10
+-54.2171
+ 20
+-297.219
+ 30
+0
+ 10
+-53.9805
+ 20
+-297.579
+ 30
+0
+ 10
+-53.7409
+ 20
+-297.945
+ 30
+0
+ 10
+-53.416
+ 20
+-298.262
+ 30
+0
+ 10
+-53.0379
+ 20
+-298.493
+ 30
+0
+ 10
+-52.6604
+ 20
+-298.724
+ 30
+0
+ 10
+-52.2307
+ 20
+-298.87
+ 30
+0
+ 10
+-51.7954
+ 20
+-298.916
+ 30
+0
+ 10
+-51.3673
+ 20
+-298.963
+ 30
+0
+ 10
+-50.9349
+ 20
+-298.915
+ 30
+0
+ 10
+-50.5415
+ 20
+-298.786
  30
 0
   0
@@ -881,239 +939,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-3
- 72
-14
- 73
-10
- 74
-0
- 40
-0.0459266
- 40
-0.0459266
- 40
-0.0459266
- 40
-0.0459266
- 40
-0.0883394
- 40
-0.0883394
- 40
-0.0883394
- 40
-0.215127
- 40
-0.215127
- 40
-0.215127
- 40
-0.24924
- 40
-0.24924
- 40
-0.24924
- 40
-0.24924
- 10
--27.6441
- 20
--292.421
- 30
-0
- 10
--29.2621
- 20
--292.767
- 30
-0
- 10
--30.8771
- 20
--293.137
- 30
-0
- 10
--32.4892
- 20
--293.531
- 30
-0
- 10
--37.3087
- 20
--294.706
- 30
-0
- 10
--42.1084
- 20
--296.03
- 30
-0
- 10
--46.9012
- 20
--297.397
- 30
-0
- 10
--48.1907
- 20
--297.765
- 30
-0
- 10
--49.4796
- 20
--298.137
- 30
-0
- 10
--50.7681
- 20
--298.513
- 30
-0
-  0
-SPLINE
-  5
-A0C
-330
-A02
-100
-AcDbEntity
-  8
-Shape2DView001
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-3
- 72
-14
- 73
-10
- 74
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0
- 40
-0.506419
- 40
-0.506419
- 40
-0.506419
- 40
-0.815578
- 40
-0.815578
- 40
-0.815578
- 40
-1
- 40
-1
- 40
-1
- 40
-1
- 10
--54.6236
- 20
--295.221
- 30
-0
- 10
--54.477
- 20
--296.151
- 30
-0
- 10
--54.0311
- 20
--297.138
- 30
-0
- 10
--53.2897
- 20
--297.817
- 30
-0
- 10
--52.8423
- 20
--298.231
- 30
-0
- 10
--52.2841
- 20
--298.515
- 30
-0
- 10
--51.7251
- 20
--298.585
- 30
-0
- 10
--51.3925
- 20
--298.629
- 30
-0
- 10
--51.0646
- 20
--298.6
- 30
-0
- 10
--50.7681
- 20
--298.513
- 30
-0
-  0
-SPLINE
-  5
-A0D
-330
-A02
-100
-AcDbEntity
-  8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -1199,13 +1025,13 @@ AcDbSpline
   0
 SPLINE
   5
-A0E
+A0C
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -1339,13 +1165,13 @@ AcDbSpline
   0
 SPLINE
   5
-A0F
+A0D
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -1479,13 +1305,13 @@ AcDbSpline
   0
 ELLIPSE
   5
-A10
+A0E
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1509,13 +1335,13 @@ AcDbEllipse
   0
 LINE
   5
-A11
+A0F
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1533,13 +1359,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A12
+A10
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1549,7 +1375,7 @@ AcDbEllipse
  30
 0
  11
-4.83037e-07
+4.89365e-07
  21
 15
  31
@@ -1559,17 +1385,17 @@ AcDbEllipse
  41
 6.17343
  42
-3.22665e-08
+3.27869e-08
   0
 LINE
   5
-A13
+A11
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1587,13 +1413,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A14
+A12
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1603,7 +1429,7 @@ AcDbEllipse
  30
 0
  11
-4.51658e-07
+4.64919e-07
  21
 15
  31
@@ -1617,13 +1443,13 @@ AcDbEllipse
   0
 LINE
   5
-A15
+A13
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1641,13 +1467,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A16
+A14
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1657,7 +1483,7 @@ AcDbEllipse
  30
 0
  11
-4.28841e-07
+4.43353e-07
  21
 15
  31
@@ -1671,13 +1497,13 @@ AcDbEllipse
   0
 LINE
   5
-A17
+A15
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1695,13 +1521,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A18
+A16
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1711,7 +1537,7 @@ AcDbEllipse
  30
 0
  11
-4.24589e-07
+4.12486e-07
  21
 15
  31
@@ -1725,13 +1551,13 @@ AcDbEllipse
   0
 LINE
   5
-A19
+A17
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1749,13 +1575,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A1A
+A18
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1765,7 +1591,7 @@ AcDbEllipse
  30
 0
  11
-4.09772e-07
+4.3431e-07
  21
 15
  31
@@ -1779,13 +1605,13 @@ AcDbEllipse
   0
 LINE
   5
-A1B
+A19
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1803,13 +1629,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A1C
+A1A
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1819,7 +1645,7 @@ AcDbEllipse
  30
 0
  11
-4.30604e-07
+4.63215e-07
  21
 15
  31
@@ -1833,13 +1659,13 @@ AcDbEllipse
   0
 LINE
   5
-A1D
+A1B
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1857,13 +1683,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A1E
+A1C
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1873,7 +1699,7 @@ AcDbEllipse
  30
 0
  11
-4.98389e-07
+4.91165e-07
  21
 15
  31
@@ -1887,13 +1713,13 @@ AcDbEllipse
   0
 LINE
   5
-A1F
+A1D
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1911,13 +1737,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A20
+A1E
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1927,7 +1753,7 @@ AcDbEllipse
  30
 0
  11
-4.83611e-07
+4.95315e-07
  21
 15
  31
@@ -1941,13 +1767,13 @@ AcDbEllipse
   0
 LINE
   5
-A21
+A1F
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -1965,13 +1791,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A22
+A20
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -1981,7 +1807,7 @@ AcDbEllipse
  30
 0
  11
-5.00718e-07
+5.067e-07
  21
 15
  31
@@ -1995,13 +1821,13 @@ AcDbEllipse
   0
 LINE
   5
-A23
+A21
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2019,13 +1845,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A24
+A22
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2035,7 +1861,7 @@ AcDbEllipse
  30
 0
  11
-4.94536e-07
+4.9448e-07
  21
 15
  31
@@ -2049,13 +1875,13 @@ AcDbEllipse
   0
 LINE
   5
-A25
+A23
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2073,13 +1899,13 @@ AcDbLine
   0
 LINE
   5
-A26
+A24
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2097,13 +1923,13 @@ AcDbLine
   0
 LINE
   5
-A27
+A25
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2121,13 +1947,13 @@ AcDbLine
   0
 LINE
   5
-A28
+A26
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2145,13 +1971,13 @@ AcDbLine
   0
 LINE
   5
-A29
+A27
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2169,13 +1995,13 @@ AcDbLine
   0
 LINE
   5
-A2A
+A28
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2193,13 +2019,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A2B
+A29
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2209,7 +2035,7 @@ AcDbEllipse
  30
 0
  11
-4.80866e-07
+4.95555e-07
  21
 15
  31
@@ -2217,9 +2043,57 @@ AcDbEllipse
  40
 1
  41
-4.84612
+4.81256
  42
 6.16189
+  0
+LINE
+  5
+A2A
+330
+A02
+100
+AcDbEntity
+  8
+Shape2DView024
+100
+AcDbLine
+ 10
+-37.0231
+ 20
+6.5
+ 30
+0
+ 11
+-29.0752
+ 21
+6.5
+ 31
+0
+  0
+LINE
+  5
+A2B
+330
+A02
+100
+AcDbEntity
+  8
+Shape2DView024
+100
+AcDbLine
+ 10
+-37.0231
+ 20
+3.5
+ 30
+0
+ 11
+-37.0231
+ 21
+6.5
+ 31
+0
   0
 LINE
   5
@@ -2229,23 +2103,23 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
--29.1339
+-29.0752
  20
-7
+3.5
  30
 0
  11
 -37.0231
  21
-7
+3.5
  31
 0
   0
-LINE
+ELLIPSE
   5
 A2D
 330
@@ -2253,55 +2127,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
-100
-AcDbLine
- 10
--37.0231
- 20
-7
- 30
-0
- 11
--37.0231
- 21
-3
- 31
-0
-  0
-LINE
-  5
-A2E
-330
-A02
-100
-AcDbEntity
-  8
-Shape2DView001
-100
-AcDbLine
- 10
--37.0231
- 20
-3
- 30
-0
- 11
--29.1339
- 21
-3
- 31
-0
-  0
-ELLIPSE
-  5
-A2F
-330
-A02
-100
-AcDbEntity
-  8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2311,7 +2137,7 @@ AcDbEllipse
  30
 0
  11
-4.80866e-07
+4.95555e-07
  21
 15
  31
@@ -2321,17 +2147,17 @@ AcDbEllipse
  41
 3.03088
  42
-4.57866
+4.61222
   0
 LINE
   5
-A30
+A2E
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2349,13 +2175,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A31
+A2F
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2365,7 +2191,7 @@ AcDbEllipse
  30
 0
  11
-4.85592e-07
+4.4288e-07
  21
 15
  31
@@ -2379,13 +2205,13 @@ AcDbEllipse
   0
 LINE
   5
-A32
+A30
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2403,13 +2229,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A33
+A31
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2419,7 +2245,7 @@ AcDbEllipse
  30
 0
  11
-4.07985e-07
+4.24778e-07
  21
 15
  31
@@ -2433,13 +2259,13 @@ AcDbEllipse
   0
 LINE
   5
-A34
+A32
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2457,13 +2283,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A35
+A33
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2473,7 +2299,7 @@ AcDbEllipse
  30
 0
  11
-4.36789e-07
+3.8212e-07
  21
 15
  31
@@ -2487,13 +2313,13 @@ AcDbEllipse
   0
 LINE
   5
-A36
+A34
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2511,13 +2337,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A37
+A35
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2527,7 +2353,7 @@ AcDbEllipse
  30
 0
  11
-4.46868e-07
+4.02715e-07
  21
 15
  31
@@ -2541,13 +2367,13 @@ AcDbEllipse
   0
 LINE
   5
-A38
+A36
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2565,13 +2391,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A39
+A37
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2581,7 +2407,7 @@ AcDbEllipse
  30
 0
  11
-3.95908e-07
+4.48961e-07
  21
 15
  31
@@ -2595,13 +2421,13 @@ AcDbEllipse
   0
 LINE
   5
-A3A
+A38
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2619,13 +2445,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A3B
+A39
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2635,7 +2461,7 @@ AcDbEllipse
  30
 0
  11
-5.04451e-07
+4.95912e-07
  21
 15
  31
@@ -2649,13 +2475,13 @@ AcDbEllipse
   0
 LINE
   5
-A3C
+A3A
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2673,13 +2499,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A3D
+A3B
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2689,7 +2515,7 @@ AcDbEllipse
  30
 0
  11
-4.86655e-07
+4.75174e-07
  21
 15
  31
@@ -2703,13 +2529,13 @@ AcDbEllipse
   0
 LINE
   5
-A3E
+A3C
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2727,13 +2553,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A3F
+A3D
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2743,7 +2569,7 @@ AcDbEllipse
  30
 0
  11
-5.01013e-07
+4.95305e-07
  21
 15
  31
@@ -2757,13 +2583,13 @@ AcDbEllipse
   0
 LINE
   5
-A40
+A3E
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2781,13 +2607,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A41
+A3F
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2797,7 +2623,7 @@ AcDbEllipse
  30
 0
  11
-4.94438e-07
+4.9624e-07
  21
 15
  31
@@ -2811,13 +2637,13 @@ AcDbEllipse
   0
 LINE
   5
-A42
+A40
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2835,13 +2661,13 @@ AcDbLine
   0
 ELLIPSE
   5
-A43
+A41
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbEllipse
  10
@@ -2851,7 +2677,7 @@ AcDbEllipse
  30
 0
  11
-4.94536e-07
+4.9448e-07
  21
 15
  31
@@ -2865,13 +2691,13 @@ AcDbEllipse
   0
 LINE
   5
-A44
+A42
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2889,13 +2715,13 @@ AcDbLine
   0
 LINE
   5
-A45
+A43
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2913,13 +2739,13 @@ AcDbLine
   0
 LINE
   5
-A46
+A44
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2937,13 +2763,13 @@ AcDbLine
   0
 LINE
   5
-A47
+A45
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2961,13 +2787,13 @@ AcDbLine
   0
 LINE
   5
-A48
+A46
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -2985,13 +2811,13 @@ AcDbLine
   0
 LINE
   5
-A49
+A47
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbLine
  10
@@ -3009,13 +2835,13 @@ AcDbLine
   0
 SPLINE
   5
-A4A
+A48
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3149,13 +2975,13 @@ AcDbSpline
   0
 SPLINE
   5
-A4B
+A49
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3289,13 +3115,13 @@ AcDbSpline
   0
 SPLINE
   5
-A4C
+A4A
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3381,13 +3207,13 @@ AcDbSpline
   0
 SPLINE
   5
-A4D
+A4B
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3415,13 +3241,13 @@ AcDbSpline
  40
 0.920362
  40
-0.967376
+0.969402
  40
-0.967376
+0.969402
  40
-0.967376
+0.969402
  40
-0.967376
+0.969402
  10
 -31.5351
  20
@@ -3429,33 +3255,33 @@ AcDbSpline
  30
 0
  10
--29.3314
+-29.2364
  20
--266.762
+-267.167
  30
 0
  10
--27.351
+-27.1807
  20
--276.501
+-277.341
  30
 0
  10
--25.641
+-25.4213
  20
--286.602
+-287.91
  30
 0
   0
 SPLINE
   5
-A4E
+A4C
 330
 A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3469,9 +3295,9 @@ AcDbSpline
  71
 3
  72
-14
+11
  73
-10
+7
  74
 0
  40
@@ -3483,17 +3309,11 @@ AcDbSpline
  40
 0
  40
-0.288257
+0.5
  40
-0.288257
+0.5
  40
-0.288257
- 40
-0.544099
- 40
-0.544099
- 40
-0.544099
+0.5
  40
 1
  40
@@ -3503,63 +3323,181 @@ AcDbSpline
  40
 1
  10
--27.6441
+-27.4503
  20
--292.421
+-291.255
  30
 0
  10
--27.1841
+-26.7933
  20
--292.329
+-291.044
  30
 0
  10
--26.7186
+-26.1871
  20
--291.999
+-290.578
  30
 0
  10
--26.3701
+-25.8156
  20
--291.487
+-289.959
  30
 0
  10
--26.058
+-25.4381
  20
--291.036
+-289.343
  30
 0
  10
--25.8341
+-25.3042
  20
--290.465
+-288.59
  30
 0
  10
--25.6967
+-25.4213
  20
--289.865
+-287.91
+ 30
+0
+  0
+SPLINE
+  5
+A4D
+330
+A02
+100
+AcDbEntity
+  8
+Shape2DView024
+100
+AcDbSpline
+210
+0
+220
+0
+230
+1
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+0.2
+ 40
+0.2
+ 40
+0.2
+ 40
+0.2
+ 10
+-54.4349
+ 20
+-296.403
  30
 0
  10
--25.4504
+-54.3829
  20
--288.789
+-296.733
  30
 0
  10
--25.4666
+-54.2734
  20
--287.629
+-297.062
  30
 0
  10
--25.641
+-54.1083
  20
--286.602
+-297.365
+ 30
+0
+  0
+SPLINE
+  5
+A4E
+330
+A02
+100
+AcDbEntity
+  8
+Shape2DView024
+100
+AcDbSpline
+210
+0
+220
+0
+230
+1
+ 70
+8
+ 71
+3
+ 72
+8
+ 73
+4
+ 74
+0
+ 40
+0.738338
+ 40
+0.738338
+ 40
+0.738338
+ 40
+0.738338
+ 40
+1
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+-51.8665
+ 20
+-298.908
+ 30
+0
+ 10
+-51.4154
+ 20
+-298.968
+ 30
+0
+ 10
+-50.9567
+ 20
+-298.922
+ 30
+0
+ 10
+-50.5415
+ 20
+-298.786
  30
 0
   0
@@ -3571,7 +3509,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3711,7 +3649,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3851,7 +3789,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -3991,7 +3929,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -4083,7 +4021,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -4111,13 +4049,13 @@ AcDbSpline
  40
 0.920362
  40
-0.958774
+0.969402
  40
-0.958774
+0.969402
  40
-0.958774
+0.969402
  40
-0.958774
+0.969402
  10
 -31.5351
  20
@@ -4125,21 +4063,21 @@ AcDbSpline
  30
 0
  10
--29.7346
+-29.2364
  20
--265.042
+-267.167
  30
 0
  10
--28.0832
+-27.1807
  20
--272.948
+-277.341
  30
 0
  10
--26.6064
+-25.4213
  20
--281.094
+-287.91
  30
 0
   0
@@ -4151,55 +4089,7 @@ A02
 100
 AcDbEntity
   8
-Shape2DView001
-100
-AcDbSpline
-210
-0
-220
-0
-230
-1
- 70
-8
- 71
-1
- 72
-4
- 73
-2
- 74
-0
- 40
-0.999893
- 40
-0.999893
- 40
-1
- 40
-1
- 10
--26.6063
- 20
--281.094
- 30
-0
- 10
--26.6064
- 20
--281.094
- 30
-0
-  0
-SPLINE
-  5
-A55
-330
-A02
-100
-AcDbEntity
-  8
-Shape2DView001
+Shape2DView024
 100
 AcDbSpline
 210
@@ -4213,49 +4103,73 @@ AcDbSpline
  71
 3
  72
-8
+11
  73
-4
+7
  74
 0
  40
-4.49832
+0
  40
-4.49832
+0
  40
-4.49832
+0
  40
-4.49832
+0
  40
-11.3357
+0.5
  40
-11.3357
+0.5
  40
-11.3357
+0.5
  40
-11.3357
+1
+ 40
+1
+ 40
+1
+ 40
+1
  10
--25.641
+-27.4503
  20
--286.602
+-291.255
  30
 0
  10
--25.9614
+-26.7933
  20
--284.709
+-291.044
  30
 0
  10
--26.2853
+-26.1871
  20
--282.865
+-290.578
  30
 0
  10
--26.6064
+-25.8156
  20
--281.094
+-289.959
+ 30
+0
+ 10
+-25.4381
+ 20
+-289.343
+ 30
+0
+ 10
+-25.3042
+ 20
+-288.59
+ 30
+0
+ 10
+-25.4213
+ 20
+-287.91
  30
 0
   0
